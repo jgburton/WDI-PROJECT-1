@@ -1,3 +1,43 @@
-background {
-  off-white;
+body {
+  text-align: center;
+}
+
+ul {
+  margin: 0 auto;
+  padding: 0;
+  width: 750px;
+  height: 300px;
+  border: 1px solid #000;
+}
+
+/*li {
+  list-style-type: none;
+  float: left;
+  border: 1px solid #000;
+  box-sizing: border-box;
+  width: 75px;
+  height: 300px;
+}*/
+
+.light {
+  background: red;
+}
+
+/*How to arrange the keys properly?*/
+.white {
+  list-style-type: none;
+  float: left;
+  border: 1px solid #000;
+  box-sizing: border-box;
+  width: 75px;
+  height: 300px;
+}
+
+.black {
+  list-style-type: none;
+  float: left;
+  border: 1px solid #000;
+  box-sizing: border-box;
+  width: 45px;
+  height: 200px;
 }
