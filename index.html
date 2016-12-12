@@ -4,6 +4,10 @@
   <meta charset="utf-8">
   <title>Lick Library</title>
   <link rel="stylesheet" href="css/style.css">
+  <script
+  src="https://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>
   <script src="js/app.js" charset="utf-8"></script>
 </head>
 <body>
@@ -11,28 +15,31 @@
   <!-- One octave piano -->
   <!-- Need to asign sharps and flats differnet class, issue with sizeing and arrangements in CSS though -->
   <ul class= "grid" >
-    <li data-key= "65" id = "0" class="white">C</li>
+    <li data-key="65" id ="0" class="white">C</li>
     <li class="black">C#</li>
-    <li data-key= "83" id = "1" class="white">D</li>
+    <li data-key="83" id ="1" class="white">D</li>
     <li class="black">D#</li>
-    <li data-key= "68" id = "2" class="white">E</li>
-    <li data-key= "70" id = "3" class="white">F</li>
+    <li data-key="68" id ="2" class="white">E</li>
+    <li data-key="70" id ="3" class="white">F</li>
     <li class="black">F#</li>
-    <li data-key= "71" id = "4" class="white">G</li>
-    <li  data-key= "72" class="black">G#</li>
-    <li id = "5" class="white">A</li>
-    <li  data-key= "73" class="black">A#</li>
-    <li id = "6" class="white">B</li>
+    <li data-key="71" id ="4" class="white">G</li>
+    <li class="black">G#</li>
+    <li data-key="72" id ="5" class="white">A</li>
+    <li class="black">A#</li>
+    <li data-key="74" id ="6" class="white">B</li>
   </ul>
 
-  <audio data-key= "65" id="s0" src="audio/C.wav"></audio>
+  <button class= "Play" type="button" name="button">Play</button>
+
+  <!-- <audio data-key= "65" id="s0" src="audio/C.wav"></audio>
   <audio data-key= "83" id="s1" src="audio/D.wav"></audio>
   <audio data-key= "68" id="s2" src="audio/E.wav"></audio>
   <audio data-key= "70" id="s3" src="audio/F.wav"></audio>
   <audio data-key= "71" id="s4" src="audio/G.wav"></audio>
   <audio data-key= "72" id="s5" src="audio/A.wav"></audio>
-  <audio data-key= "73" id="s6" src="audio/B.wav"></audio>
+  <audio data-key= "73" id="s6" src="audio/B.wav"></audio> -->
   <!-- <audio id="s7"src="audio/C_Octave.wav"></audio> -->
+
 
 
 </body>
