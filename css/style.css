@@ -1,5 +1,6 @@
 body {
   text-align: center;
+  background-color: #dcdcc6;
 }
 
 ul {
@@ -8,6 +9,7 @@ ul {
   width: 750px;
   height: 300px;
   border: 1px solid #000;
+  border-radius: 15px;
 }
 
 /*li {
@@ -20,7 +22,7 @@ ul {
 }*/
 
 .light {
-  background-color:red;
+  background-color:green;
 }
 
 /*How to arrange the keys properly?*/
@@ -31,6 +33,7 @@ ul {
   box-sizing: border-box;
   width: 75px;
   height: 300px;
+  border-radius: 15px;
 }
 
 .black {
@@ -40,8 +43,9 @@ ul {
   box-sizing: border-box;
   width: 45px;
   height: 200px;
+  border-radius: 10px;
 }
 
 .selected {
-  background: red;
+  background: yellow;
 }
