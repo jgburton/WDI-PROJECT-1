@@ -103,6 +103,7 @@ ul {
   background-position: center;
   margin-top: 60px;
   margin-left: 10px;
+  margin-bottom: auto;
   color: black;
   background-color: white;
   border-color: white;
@@ -113,6 +114,6 @@ ul {
 p {
   font-family: 'Merriweather', serif;
   font-size: 13px;
-  margin-top: 60px;
+  margin-top: 50px;
   font-style: italic;
 }
