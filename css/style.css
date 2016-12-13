@@ -1,51 +1,104 @@
 body {
   text-align: center;
-  background-color: #dcdcc6;
+  margin: 0;
+  background-color: #F2F2F2;
 }
+
+/*height: 200px;*/
+/*overflow: hidden;*/
+h1 {
+  padding-bottom: 80px;
+  font-family: 'Merriweather', serif;
+}
+
 
 ul {
   margin: 0 auto;
-  padding: 0;
+  /*padding: 0;
   width: 750px;
   height: 300px;
-  border: 1px solid #000;
-  border-radius: 15px;
+  border: 1px solid #000;*/
+  /*border-radius: 15px;*/
+  /*background-color: white;*/*/
+  position: relative;
+  background-image: url('http://www.merlinworld.com/RV/mahogany-wood.jpg');
+  /*padding: 0;*/
+  padding-top: 50px;
+  width: 700px;
+  border-radius: 1%;
 }
 
-/*li {
-  list-style-type: none;
-  float: left;
-  border: 1px solid #000;
-  box-sizing: border-box;
-  width: 75px;
-  height: 300px;
-}*/
-
-.light {
-  background-color:green;
+.white span {
+  position: absolute;
+  top: 450px;
+  font-weight: bold;
+  margin: 0 auto;
 }
 
 /*How to arrange the keys properly?*/
 .white {
+  background-color: white;
   list-style-type: none;
-  float: left;
-  border: 1px solid #000;
-  box-sizing: border-box;
-  width: 75px;
-  height: 300px;
-  border-radius: 15px;
+  /*border: 1px solid #000;*/
+  /*box-sizing: border-box;*/
+  width: 65px;
+  height: 270px;
+  display:inline-block;
+  /*border-radius: 15px;*/
+  /*-webkit-box-shadow: -4px -6px 0px 0px #CCC inset;
+  -moz-box-shadow: -4px -6px 0px 0px #CCC inset;
+  /*box-shadow: -4px -6px 0px 0px #CCC inset;*/
+  box-shadow: 10px 3px 5px -10px #ccc;*/
+  /*-moz-box-shadow:    3px 3px 5px 6px #ccc;
+  -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+  box-shadow:         3px 3px 5px 6px #ccc;*/
 }
 
 .black {
   list-style-type: none;
-  float: left;
-  border: 1px solid #000;
-  box-sizing: border-box;
-  width: 45px;
-  height: 200px;
-  border-radius: 10px;
+  /*border: 1px solid #000;*/
+  /*box-sizing: padding-box;*/
+  width: 30px;
+  height: 160px;
+  /*border-radius: 10px;*/
+  /*border-bottom-left-radius: 5px;*/
+  /*border-bottom-right-radius: 5px;*/
+  background-color: black;
+  /*z-index: 30;*/
+  position: absolute;
+  top: 211px;
+  display: inline-block;
+  padding-left: 0;
+
+
+  -webkit-box-shadow: 5px 6px 20px 0px #aaa inset;
+  -moz-box-shadow: 5px 6px 20px 0px #aaa inset;
+  box-shadow: 5px 6px 20px 0px #aaa;
 }
 
 .selected {
-  background: yellow;
+  /*background: ;*/
+  background-color: #fefbf7;
+  -webkit-box-shadow: 0px 3px 0px 5px #E0E0E0 inset;
+  -moz-box-shadow: 0px 3px 0px 5px #E0E0E0 inset;
+  box-shadow: -2px -3px 0px 5px #E0E0E0 inset;
+}
+
+.Play {
+  /*font-style: italic;*/
+  font-family:sans-serif;
+  background-position: center;
+  margin-top: 60px;
+  color: black;
+  background-color: white;
+  border-color: white;
+  height: 30px;
+  width: 30px;
+}
+
+p {
+  font-family: 'Merriweather', serif;
+  font-size: 13px;
+  margin-top: 70px;
+  font-style: italic;
 }

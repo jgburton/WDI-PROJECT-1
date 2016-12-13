@@ -3,7 +3,8 @@
 <head>
   <meta charset="utf-8">
   <title>Lick Library</title>
-  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css" href ="http://fonts.googleapis.com/css?family=Arizonia">
   <script
   src="https://code.jquery.com/jquery-3.1.1.min.js"
   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
@@ -14,22 +15,31 @@
   <h1>Lick Library</h1>
   <!-- One octave piano -->
   <!-- Need to asign sharps and flats differnet class, issue with sizeing and arrangements in CSS though -->
-  <ul class= "grid" >
-    <li data-key="65" id ="0" class="white">C/A</li>
-    <li class="black">C#</li>
-    <li data-key="83" id ="1" class="white">D/S</li>
-    <li class="black">D#</li>
-    <li data-key="68" id ="2" class="white">E/D</li>
-    <li data-key="70" id ="3" class="white">F/F</li>
-    <li class="black">F#</li>
-    <li data-key="71" id ="4" class="white">G/G</li>
-    <li class="black">G#</li>
-    <li data-key="72" id ="5" class="white">A/H</li>
-    <li class="black">A#</li>
-    <li data-key="74" id ="6" class="white">B/J</li>
-  </ul>
 
-  <button class= "Play" type="button" name="button">Play</button>
+
+    <ul class= "grid" >
+      <li data-key="65" id ="0" class="white"><span>A</span></li>
+      <li class="black">C#</li>
+      <li data-key="83" id ="1" class="white"><span>S</span></li>
+      <li class="black">D#</li>
+      <li data-key="68" id ="2" class="white"><span>D</span></li>
+      <li data-key="70" id ="3" class="white"><span>F</span></li>
+      <li class="black">F#</li>
+      <li data-key="71" id ="4" class="white"><span>G</span></li>
+      <li class="black">G#</li>
+      <li data-key="72" id ="5" class="white"><span>H</span></li>
+      <li class="black">A#</li>
+      <li data-key="74" id ="6" class="white"><span>J</span></li>
+    </ul>
+
+<button class= "Play" type="button" name="button">►</button>
+
+<p>Click play ► to start memory game. Listen and watch the virtual melody and then input using keys ASDFGHJ on user keyboard. The keys represent the notes sounded: CDEFGAB.</p>
+
+
+
+  <!-- <button class= "Jam" type="button" name="button">Jam</button> -->
+
 
   <!-- <audio data-key= "65" id="s0" src="audio/C.wav"></audio>
   <audio data-key= "83" id="s1" src="audio/D.wav"></audio>

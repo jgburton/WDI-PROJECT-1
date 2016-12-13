@@ -8,6 +8,7 @@ Game.start = function() {
   this.sequence     = [];
   this.userSequence = [];
   this.keys         = [65, 68, 70, 71, 72, 74, 83];
+  this.play         = false;
 
   this.assignbutton();
   // this.eventListeners();
@@ -18,7 +19,8 @@ $(Game.start.bind(Game));
 
 // 1. Play button assignment
 Game.assignbutton = function assignbutton() {
-  $('button').on('click', function(){
+  $('.Play').on('click', function(){
+    Game.play = true;
     Game.randomSequence();
   });
 };
@@ -102,7 +104,7 @@ Game.userInputs = function() {
   });
 };
 
-// 5. Match Logic
+// 5. Match Logic of sequence and user
 Game.checkForWin = function(){
   $(window).off('keydown');
   console.log('working');
@@ -120,6 +122,11 @@ Game.checkForWin = function(){
     }, 500);
 
   } else {
+    Game.count = 2;
+    Game.keyPressCounter = 0;
+    Game.sequence     = [];
+    Game.userSequence = [];
     console.log('you fail');
+    alert('You Fail! Please press play to start over...');
   }
 };
