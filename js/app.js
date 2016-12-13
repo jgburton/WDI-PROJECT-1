@@ -75,8 +75,6 @@ Game.userInputs = function() {
   //   // write a function to compare the two sequence arrays
   $(window).off('keydown');
   $(window).on('keydown', function(e) {
-
-    console.log(e.keyCode);
     switch(e.keyCode) {
       case 65:
       new Audio('../audio/' + e.keyCode + '.wav').play();
@@ -100,7 +98,16 @@ Game.userInputs = function() {
       new Audio('../audio/' + e.keyCode + '.wav').play();
       break;
     }
-
+    var $whites = $('.white');
+    for (var i = 0; i < $whites.length; i++) {
+      if (parseInt($whites[i].getAttribute('data-key')) === e.keyCode){
+        var hold = i;
+        $($whites[hold]).addClass('selected');
+        setTimeout(function(){
+          $($whites[hold]).removeClass('selected');
+        }, 600);
+      }
+    }
     if (Game.play) {
       Game.keyPressCounter++;
       Game.userSequence.push(e.keyCode);
