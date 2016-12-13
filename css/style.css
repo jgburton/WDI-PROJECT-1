@@ -90,7 +90,7 @@ ul {
   /*font-style: italic;*/
   font-family:sans-serif;
   background-position: center;
-  margin-top: 60px;
+  margin-top: 50px;
   color: black;
   background-color: white;
   border-color: white;
@@ -101,7 +101,7 @@ ul {
 .jam {
   font-family:sans-serif;
   background-position: center;
-  margin-top: 60px;
+  margin-top: 50px;
   margin-left: 10px;
   margin-bottom: auto;
   color: black;
@@ -114,6 +114,6 @@ ul {
 p {
   font-family: 'Merriweather', serif;
   font-size: 13px;
-  margin-top: 50px;
+  margin-top: 40px;
   font-style: italic;
 }
