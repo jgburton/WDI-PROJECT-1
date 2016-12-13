@@ -96,6 +96,18 @@ ul {
   width: 30px;
 }
 
+.jam {
+  font-family:sans-serif;
+  background-position: center;
+  margin-top: 60px;
+  margin-left: 10px;
+  color: black;
+  background-color: white;
+  border-color: white;
+  height: 30px;
+  width: 30px;
+}
+
 p {
   font-family: 'Merriweather', serif;
   font-size: 13px;
