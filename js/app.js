@@ -97,6 +97,9 @@ Game.userInputs = function() {
       case 74:
       new Audio('../audio/' + e.keyCode + '.wav').play();
       break;
+      case 75:
+      new Audio('../audio/' + e.keyCode + '.wav').play();
+      break;
     }
     var $whites = $('.white');
     for (var i = 0; i < $whites.length; i++) {
