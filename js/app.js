@@ -146,5 +146,3 @@ Game.checkForWin = function(){
     alert('You Fail! Please press play ► to start over...');
   }
 };
-
-//Improvements?
