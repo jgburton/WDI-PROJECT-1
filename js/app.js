@@ -1,5 +1,4 @@
 // Piano Memory Game
-
 var Game = Game || {};
 
 Game.start = function() {
@@ -77,29 +76,29 @@ Game.userInputs = function() {
   $(window).on('keydown', function(e) {
     switch(e.keyCode) {
       case 65:
-      new Audio('../audio/' + e.keyCode + '.wav').play();
-      break;
+        new Audio('../audio/' + e.keyCode + '.wav').play();
+        break;
       case 83:
-      new Audio('../audio/' + e.keyCode + '.wav').play();
-      break;
+        new Audio('../audio/' + e.keyCode + '.wav').play();
+        break;
       case 68:
-      new Audio('../audio/' + e.keyCode + '.wav').play();
-      break;
+        new Audio('../audio/' + e.keyCode + '.wav').play();
+        break;
       case 70:
-      new Audio('../audio/' + e.keyCode + '.wav').play();
-      break;
+        new Audio('../audio/' + e.keyCode + '.wav').play();
+        break;
       case 71:
-      new Audio('../audio/' + e.keyCode + '.wav').play();
-      break;
+        new Audio('../audio/' + e.keyCode + '.wav').play();
+        break;
       case 72:
-      new Audio('../audio/' + e.keyCode + '.wav').play();
-      break;
+        new Audio('../audio/' + e.keyCode + '.wav').play();
+        break;
       case 74:
-      new Audio('../audio/' + e.keyCode + '.wav').play();
-      break;
+        new Audio('../audio/' + e.keyCode + '.wav').play();
+        break;
       case 75:
-      new Audio('../audio/' + e.keyCode + '.wav').play();
-      break;
+        new Audio('../audio/' + e.keyCode + '.wav').play();
+        break;
     }
     var $whites = $('.white');
     for (var i = 0; i < $whites.length; i++) {
