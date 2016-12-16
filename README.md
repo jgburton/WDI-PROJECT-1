@@ -34,5 +34,5 @@ I'd like to add alternative audio, possibly having a few settings for different 
 
 I'd also like to learn how to manipulate the length of audio without effecting the quality of the sound when pressing a key for a longer period of time. This would enable the user to play sustained chords while using the 'jam' function.
 
-Make the web application responsive using CSS.
+Making the web application responsive using CSS and setting up click events on the individual piano keys in addition to key down events for use on tablet devices.
 
