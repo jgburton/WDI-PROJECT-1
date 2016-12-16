@@ -28,6 +28,7 @@ Additional feature: Add a 'jam' function so the user can use the virtual piano f
 ###Wins
 Using html, css and Java Script (jquery notation) to build a game from scratch.
 Overcoming issues with functionality, particulary in gaining a better understanding of loops in JavaScript and setting up event listeners.
+Experimenting with minimalist design for the application.
 
 ###Future Improvements: <br>
 I'd like to add alternative audio, possibly having a few settings for different piano/keyboard samples for the 'jam' function and increase the size of the octave piano to two octaves incooperating the black (#/b) keys.
