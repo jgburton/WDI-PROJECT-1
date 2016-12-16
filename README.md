@@ -14,7 +14,7 @@ For the first porject on WDI I decided to build an octave piano memory game usin
 2. Create audio files for each individual note, sampling an octave from middle C on the piano.<br>
 3. Map appropriate audio to each key.<br>
 4. Generate a random sequence, with musical notes and change keys in apperance by colour/styling.<br>
-5. User must imput the same sequence using computer keys.<br>
+5. User must input the same sequence using computer keys.<br>
 6. If the user input sequence is equal to the computer sequence increase sequence by one addtional random musical note.<br>
 7. Play extended audio/visual sequence.
 8. Repeat steps 5 and 6 if correct. Otherwise, alert 'fail' and promt to restart game.
