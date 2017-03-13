@@ -9,7 +9,7 @@ This is my first project for the Web Development Immersive bootcamp at General A
 
 For the first porject on WDI I decided to build an octave piano memory game using html5 for content, CSS3 for styling and JavaScript using jQuery notation for functionaility.
 
-IMAGE
+Lick Library
 ![](http://i.imgur.com/tWadKS9.png)
 
 
