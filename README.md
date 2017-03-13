@@ -4,12 +4,10 @@
 ___
 <br>
 
-# WDI_PROJECT_1
+# PROJECT_1
 This is my first project for the Web Development Immersive bootcamp at General Assembly
 <br>
 <br>
-
-## GA WDI Project 1
  
 ## Piano Memory Game - Lick Library
 
