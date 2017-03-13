@@ -9,6 +9,10 @@ This is my first project for the Web Development Immersive bootcamp at General A
 
 For the first porject on WDI I decided to build an octave piano memory game using html5 for content, CSS3 for styling and JavaScript using jQuery notation for functionaility.
 
+IMAGE
+![](https://drive.google.com/open?id=0B_QvZnCUbylLMjNqQ1V2RDZlTzQ.png)
+
+
 ###Approach to the build of Lick Library: <br>
 1. Make a list to represent each piano key. <br>
 2. Create audio files for each individual note, sampling an octave from middle C on the piano.<br>
